@@ -1,0 +1,44 @@
+.feedback__btns__area{
+    display: flex;
+  }
+  
+.feedback__btn:not(:last-child){
+    margin-right: 8px;
+}
+
+.feedback__btn{
+    position: relative;
+    background-color: #f1a7e8;
+    border: 1px solid #8d1e5b;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px 8px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .feedback__btn:after {
+    content: "";
+    background: #f0bfda;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .feedback__btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
