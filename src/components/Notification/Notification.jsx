@@ -2,10 +2,8 @@
 
 // import s from '../App/App.module.css';
 
-const Notification = ({message}) => {
-    return(
-        <p>{message}</p>
-    );
-  };
-  
-  export default Notification;
+const Notification = ({ message }) => {
+  return <p>{message}</p>;
+};
+
+export default Notification;

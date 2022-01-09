@@ -1,6 +1,6 @@
 .feedback__btns__area{
     display: flex;
-  }
+}
   
 .feedback__btn:not(:last-child){
     margin-right: 8px;
